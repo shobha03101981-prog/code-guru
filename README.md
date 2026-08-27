@@ -1,16 +1,42 @@
 # Code Guru — Multilingual AI Code Explainer
 
-Paste any code, script, or hardware/firmware snippet and get a line-by-line,
-keyword-by-keyword explanation in English, Hinglish, or Hindi.
+Code Guru is a multilingual code explanation tool that helps developers understand code through clear, structured explanations.
 
-## Deploy steps
+Paste any code, script, or hardware/firmware snippet and get explanations in:
 
-### 1. Push this folder to GitHub
+- English
+- Hinglish
+- Hindi
 
-```bash
-git init
-git add .
-git commit -m "Code Guru - initial commit"
-git branch -M main
-git remote add origin https://github.com/<your-username>/code-guru.git
-git push -u origin main
+## Features
+
+- Line-by-line code explanation
+- Keyword and concept breakdown
+- Execution-flow explanation
+- Bug and potential issue detection
+- Code improvement suggestions
+- Multilingual explanations
+- Support for multiple programming languages
+- Secure server-side AI API integration
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Anthropic API
+- Vercel Serverless Functions
+
+## Project Structure
+
+```text
+code-guru/
+├── api/
+│   └── explain.js
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── .gitignore
